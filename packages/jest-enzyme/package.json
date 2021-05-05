@@ -1,6 +1,6 @@
 {
-  "name": "jest-enzyme",
-  "version": "7.1.2",
+  "name": "@alandeivson/jest-enzyme",
+  "version": "8.1.0",
   "description": "Testing Matchers for Enzyme",
   "main": "lib/index.js",
   "author": "Blaine Kasten <blainekasten@gmail.com>",
@@ -50,9 +50,9 @@
     "jest": ">=22.0.0"
   },
   "dependencies": {
-    "enzyme-matchers": "^7.1.2",
-    "enzyme-to-json": "^3.3.0",
-    "jest-environment-enzyme": "^7.1.2"
+    "@alandeivson/enzyme-matchers": "8.0.0",
+    "@alandeivson/jest-environment-enzyme": "^8.0.0",
+    "enzyme-to-json": "^3.3.0"
   },
   "devDependencies": {
     "@types/enzyme": "^3.1.11",
@@ -78,5 +78,8 @@
       "<rootDir>/node_modules/(?!enzyme-matchers)"
     ],
     "verbose": true
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
