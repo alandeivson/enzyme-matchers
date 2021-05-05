@@ -1,6 +1,6 @@
 {
   "name": "@alandeivson/jest-enzyme",
-  "version": "8.1.0",
+  "version": "8.1.1",
   "description": "Testing Matchers for Enzyme",
   "main": "lib/index.js",
   "author": "Blaine Kasten <blainekasten@gmail.com>",
