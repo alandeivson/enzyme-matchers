@@ -1,3 +1,5 @@
+Forked from https://github.com/enzymejs/enzyme-matchers. Added support for React 17.
+
 # jest-environment-enzyme
 
 [![npm version](https://img.shields.io/npm/v/jest-environment-enzyme.svg)](https://www.npmjs.com/package/jest-environment-enzyme)

@@ -7,13 +7,15 @@
  * @flow
  */
 
-import enzymeMatchers from 'enzyme-matchers';
+import enzymeMatchers from '@alandeivson/enzyme-matchers';
 import serializer from 'enzyme-to-json/serializer';
 
 declare var expect: Function;
 
 if (global.bootstrapEnzymeEnvironment) {
-  const { exposeGlobals } = require('jest-environment-enzyme/lib/setup');
+  const {
+    exposeGlobals,
+  } = require('@alandeivson/jest-environment-enzyme/lib/setup');
 
   exposeGlobals();
 }
